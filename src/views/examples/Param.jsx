@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
-const Home = props => {
+const Param = props => {
     // id em Content
     const {id} = useParams()
     return (
@@ -12,4 +12,4 @@ const Home = props => {
     )
 }
 
-export default Home
+export default Param
